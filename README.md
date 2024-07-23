@@ -46,8 +46,3 @@ Example: `python train.py --dataset_name InHARD-13 --cudad 0 --base_dir ./data/I
 `python eval.py --dataset_name <dataset>  --base_dir <dataset_path>`
 
 Example: `python eval.py --dataset_name InHARD-13 --cudad 0 --base_dir ./data/InHARD-13/ --compile_result`
-
-[FlowChart](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G1ZXNX5TX5S1Y__h-Z_5sWsbrjy9MwEDAM)
-
-
-[Test table](https://cesifr.sharepoint.com/:x:/s/HumanActionRecognition/ERxhL1xm9yNGquZTXgwo0VcBwAlLfIaYgj7Fxr5bgHjdNw?e=ZilQLi)
