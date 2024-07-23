@@ -62,27 +62,12 @@ print('device: ', device)
 config = dotdict(
     epochs = 500,
     dataset = args.dataset_name,
-    #feature_size = 63, #inhard_13 pose light(21) mtm3
-    #feature_size = 51, #inhard_3
-    #feature_size = 2048, #inhard
-    #feature_size = 2304, #epic
-    #feature_size = 66, #inhard_13 2D
-    #feature_size = 216, #inhard_13 3D positions OR velocity
-    #feature_size = 279, #inhard_13 3D positions + orientations
-    #feature_size = 448, #inhard_13 3D positions backbone
-    #feature_size = 72, #inhard_13 bone angles
-    #feature_size = 288, #inhard_13 pose + bone angles
-    #feature_size = 213, #inhard_13 3D relative positions to hips
+    feature_size = 63, #inhard_13 pose_light (21 joints)
+    #feature_size = 2048, #inhard img
     #feature_size = 504, #inhard_13 pose bone velocity
-    #feature_size = 144, # pv, pe(p)= 2 
-    #feature_size = 1296, # pe(p)= 6
-    #feature_size = 1728, # pe(p)= 8
     #feature_size = 1080, # spacial pec(n=1)
-    #feature_size = 648, # spacial pec(n=0)
-    #feature_size =  1944, # spacial pec(n=2)
     #feature_size = 63, # shape (None, 21, 3)
-    #feature_size = 21,
-    feature_size = 288,
+    #feature_size = 21, # bone_light
     gamma = 0.5,
     step_size = 500,
     split_number = args.split,
@@ -91,25 +76,7 @@ config = dotdict(
     aug=1,
     lps=0)
 
-if args.dataset_name == "breakfast":
-    config.chunk_size = 10
-    config.max_frames_per_video = 1200
-    config.learning_rate = 1e-4
-    config.weight_decay = 3e-3
-    config.batch_size = 100
-    config.num_class = 48
-    config.back_gd = ['SIL']
-    config.ensem_weights = [1, 1, 1, 1, 0, 0]
-elif args.dataset_name == "epic":
-    config.chunk_size = 10 #window for feature augmentation
-    config.max_frames_per_video = 60000
-    config.learning_rate = 1e-4
-    config.weight_decay = 3e-3
-    config.batch_size = 20
-    config.num_class = 98
-    config.back_gd = ['BG']
-    config.ensem_weights = [1, 1, 1, 1, 0, 0]
-elif args.dataset_name == "InHARD":
+if args.dataset_name == "InHARD":
     config.chunk_size = 2 #window for feature augmentation
     config.max_frames_per_video = 26524 
     config.learning_rate = 1e-4 #---------------------------
@@ -119,53 +86,16 @@ elif args.dataset_name == "InHARD":
     #config.back_gd = ['']
     config.back_gd = ['No action']
     config.ensem_weights = [1, 1, 1, 1, 0]
-elif args.dataset_name == "InHARD_3":
-    config.chunk_size = 2 #window for feature augmentation
-    config.max_frames_per_video = 26334 # 12774 
-    config.learning_rate = 1e-4 #---------------------------
-    config.weight_decay = 3e-3
-    config.batch_size = 25
-    config.num_class = 4
-    config.back_gd = ['No action']
-    config.ensem_weights = [1, 1, 1, 1, 0, 0]
 elif args.dataset_name == "InHARD_13":
     config.chunk_size = 2 # window for feature augmentation
-    config.max_frames_per_video = 7360 #26342 #(inhard-4) #19330, (inhard-3) #12976,   #26342 (inhard-13) # 7361 
+    config.max_frames_per_video = 7360 # min sequence length
     config.learning_rate = 1e-4
     config.weight_decay = 3e-3
     config.batch_size = 5
-    config.num_class = 4 #4 #3 #14 (InHARD-13)
+    config.num_class = 14
     #config.back_gd = ['']
     config.back_gd = ['No action']
     config.ensem_weights = [1, 1, 1, 1, 0]
-elif args.dataset_name == "InHARD_2D":
-    config.chunk_size = 2 # window for feature augmentation
-    config.max_frames_per_video = 7360 #26525
-    config.learning_rate = 1e-4
-    config.weight_decay = 3e-3
-    config.batch_size = 5 #32
-    config.num_class = 3
-    #config.back_gd = ['']
-    config.back_gd = ['No action']
-    config.ensem_weights = [1, 1, 1, 1, 0]
-elif args.dataset_name == "gtea":
-    config.chunk_size = 4
-    config.max_frames_per_video = 600
-    config.learning_rate = 5e-4
-    config.weight_decay = 3e-4
-    config.batch_size = 11
-    config.num_class = 11
-    config.back_gd = ['background']
-    config.ensem_weights = [1, 1, 1, 1, 0, 0]
-else: # args.dataset_name == "50salads":
-    config.chunk_size = 20
-    config.max_frames_per_video = 960
-    config.learning_rate = 3e-4
-    config.weight_decay = 1e-3
-    config.batch_size = 20
-    config.num_class = 19
-    config.back_gd = ['action_start', 'action_end']
-    config.ensem_weights = [1, 1, 1, 1, 0, 0]
 
 config.output_dir = config.base_dir + "results/supervised_C2FTCN/"
 if not os.path.exists(config.output_dir):
@@ -195,8 +125,7 @@ print("printing in output dir = ", config.output_dir)
 config.project_name="{}-split{}".format(config.dataset, config.split_number)
 config.train_split_file = config.base_dir + "splits/train.split{}.bundle".format(config.split_number)
 config.test_split_file = config.base_dir + "splits/validation.split{}.bundle".format(config.split_number)
-config.features_file_name = config.base_dir + "/features/inhard-4/30fps_pb"
-#config.features_file_name = config.base_dir + "/features/3actions_mtm/"
+config.features_file_name = config.base_dir + "/features/inhard-13/30fps_p"
 
 if args.ft_file is not None:
     config.features_file_name = os.path.join(config.base_dir, args.ft_file)
@@ -206,9 +135,8 @@ if args.ft_size is not None:
     config.feature_size = args.ft_size
     config.output_dir = config.output_dir + "_ft_size{}".format(args.ft_file)
  
-#config.ground_truth_files_dir = config.base_dir + "/groundTruth/4actions/"  #bvh_30fps InHARD-13 sk
-config.ground_truth_files_dir = config.base_dir + "/groundTruth/4actions/" 
-config.label_id_csv = config.base_dir + 'mapping_4.csv'
+config.ground_truth_files_dir = config.base_dir + "/groundTruth/" 
+config.label_id_csv = config.base_dir + 'mapping.csv' #action classes
 
 config.output_dir = config.output_dir + "/"
 
@@ -269,18 +197,14 @@ class CriterionClass(nn.Module):
     def __init__(self, config):
         super().__init__()
         #Class-specific weights (you can adjust these according to your requirements)
-        #class_weights = torch.tensor([1.0, 20.0, 7.0, 6.0, 7.0, 5.0, 3.0, 39.0, 44.0, 8.0, 25.0, 1.0, 47.0, 13.0]) # 14 actions
-        #class_weights = torch.tensor([1.0, 7.0, 6.0, 7.0, 5.0, 3.0, 39.0, 44.0, 8.0, 25.0, 1.0, 47.0, 13.0])
-        class_weights = torch.tensor([1.0, 5.0, 4.0, 1.0]) # inhard-4
-        #class_weights = torch.tensor([1.0, 5.0, 2.0, 1.0]) # mtm 4
-        #class_weights = torch.tensor([5.0, 2.0, 1.0]) # inhard-3
+        class_weights = torch.tensor([1.0, 20.0, 7.0, 6.0, 7.0, 5.0, 3.0, 39.0, 44.0, 8.0, 25.0, 1.0, 47.0, 13.0]) # 14 actions
 
         '''class_weights = torch.tensor([0.0205118, 0.4130183, 0.148845, 0.1303033, 0.1341922, 0.1060895, 
                                       0.0702484, 0.7961783, 0.9090909, 0.1573812, 0.5062778, 0.0200329, 
                                       0.9619084, 0.2701826])'''
 
         self.ce = nn.CrossEntropyLoss(ignore_index=-100, weight=class_weights.to(device))  # Frame wise cross entropy loss
-        #self.ce = nn.CrossEntropyLoss(ignore_index=-100)
+        #self.ce = nn.CrossEntropyLoss(ignore_index=-100) #use this if no class weighting is used
         self.mse = nn.MSELoss(reduction='none')           # Migitating transistion loss 
     
     def forward(self, outp, labels, src_mask, labels_present):
