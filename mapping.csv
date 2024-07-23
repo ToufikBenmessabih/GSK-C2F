@@ -1,0 +1,15 @@
+label_name,label_id
+No action,0
+Consult sheets,1
+Turn sheets,2
+Take screwdriver,3
+Put down screwdriver,4
+Picking in front,5
+Picking left,6
+Take measuring rod,7
+Put down measuring rod,8
+Take component,9
+Put down component,10
+Assemble system,11
+Take subsystem,12
+Put down subsystem,13
