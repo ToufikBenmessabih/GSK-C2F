@@ -38,14 +38,14 @@ correctness of predicted temporal ordering of actions, used to penalize over-seg
 Load 3D joint positions from the InHARD-13 dataset: [skeleton_pose_inhard13.ipynb](https://github.com/ToufikBenmessabih/GSK-ED/blob/85dfadcdbcbd5bce91bd8c76443894cf3cca76d5/skeleton_pose_inhard13.ipynb)
 
 ## Train
-`python train.py --dataset_name <dataset> --cudad 1 --base_dir <dataset_path> --split <nbr>`
+`python train.py --dataset_name <dataset> --cudad 0 --base_dir <dataset_path> --split <nbr>`
 
-Example: `python train.py --dataset_name InHARD-13 --cudad 1 --base_dir ./data/InHARD-13/ --split 1`
+Example: `python train.py --dataset_name InHARD-13 --cudad 0 --base_dir ./data/InHARD-13/ --split 1`
 
 ## Evaluation
 `python eval.py --dataset_name <dataset>  --base_dir <dataset_path>`
 
-Example: `python eval.py --dataset_name InHARD-13 --cudad 1 --base_dir ./data/InHARD-13/ --compile_result`
+Example: `python eval.py --dataset_name InHARD-13 --cudad 0 --base_dir ./data/InHARD-13/ --compile_result`
 
 [FlowChart](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1#G1ZXNX5TX5S1Y__h-Z_5sWsbrjy9MwEDAM)
 
