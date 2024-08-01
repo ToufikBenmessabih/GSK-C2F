@@ -37,6 +37,12 @@ correctness of predicted temporal ordering of actions, used to penalize over-seg
 
 Load 3D joint positions from the InHARD-13 dataset: [skeleton_pose_inhard13.ipynb](https://github.com/ToufikBenmessabih/GSK-ED/blob/85dfadcdbcbd5bce91bd8c76443894cf3cca76d5/skeleton_pose_inhard13.ipynb)
 
+## Ground Truth
+To generate ground truth files, do the following: inside the Graound_truth directory, 
+- generate the dataset information using: `gen_info.py`
+- generate segment level annotations using: `anno_bvh` then split them using: `split_bvh_annoFiles.py` so each video sequence has it's annotation file
+- generate frame level annotation using: `pred_seg2Frame.py`
+
 ## Train
 `python train.py --dataset_name <dataset> --cudad 0 --base_dir <dataset_path> --split <nbr>`
 
