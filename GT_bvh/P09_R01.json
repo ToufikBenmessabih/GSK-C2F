@@ -1,0 +1,778 @@
+{
+    "P09_R01": [
+        {
+            "Action_start_bvh_frame": 386,
+            "Action_end_bvh_frame": 481,
+            "label": "Consult sheets",
+            "class_idx": 2
+        },
+        {
+            "Action_start_bvh_frame": 490,
+            "Action_end_bvh_frame": 824,
+            "label": "Picking in front",
+            "class_idx": 6
+        },
+        {
+            "Action_start_bvh_frame": 833,
+            "Action_end_bvh_frame": 981,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 981,
+            "Action_end_bvh_frame": 1014,
+            "label": "Put down component",
+            "class_idx": 11
+        },
+        {
+            "Action_start_bvh_frame": 1038,
+            "Action_end_bvh_frame": 1338,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 1338,
+            "Action_end_bvh_frame": 1547,
+            "label": "Put down component",
+            "class_idx": 11
+        },
+        {
+            "Action_start_bvh_frame": 1657,
+            "Action_end_bvh_frame": 1766,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 1795,
+            "Action_end_bvh_frame": 2100,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 2100,
+            "Action_end_bvh_frame": 2205,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 2266,
+            "Action_end_bvh_frame": 2400,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 2585,
+            "Action_end_bvh_frame": 2752,
+            "label": "Take screwdriver",
+            "class_idx": 4
+        },
+        {
+            "Action_start_bvh_frame": 2752,
+            "Action_end_bvh_frame": 2885,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 2933,
+            "Action_end_bvh_frame": 3066,
+            "label": "Take measuring rod",
+            "class_idx": 8
+        },
+        {
+            "Action_start_bvh_frame": 3081,
+            "Action_end_bvh_frame": 3257,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 3333,
+            "Action_end_bvh_frame": 3490,
+            "label": "Take screwdriver",
+            "class_idx": 4
+        },
+        {
+            "Action_start_bvh_frame": 3490,
+            "Action_end_bvh_frame": 3676,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 3685,
+            "Action_end_bvh_frame": 3790,
+            "label": "Put down screwdriver",
+            "class_idx": 5
+        },
+        {
+            "Action_start_bvh_frame": 3923,
+            "Action_end_bvh_frame": 4209,
+            "label": "Turn sheets",
+            "class_idx": 3
+        },
+        {
+            "Action_start_bvh_frame": 4219,
+            "Action_end_bvh_frame": 4419,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 4428,
+            "Action_end_bvh_frame": 4585,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 4585,
+            "Action_end_bvh_frame": 4771,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 4771,
+            "Action_end_bvh_frame": 4804,
+            "label": "Put down component",
+            "class_idx": 11
+        },
+        {
+            "Action_start_bvh_frame": 4804,
+            "Action_end_bvh_frame": 4890,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 4909,
+            "Action_end_bvh_frame": 5328,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 5333,
+            "Action_end_bvh_frame": 5418,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 5457,
+            "Action_end_bvh_frame": 5623,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 5742,
+            "Action_end_bvh_frame": 5957,
+            "label": "Take screwdriver",
+            "class_idx": 4
+        },
+        {
+            "Action_start_bvh_frame": 5957,
+            "Action_end_bvh_frame": 6133,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 6152,
+            "Action_end_bvh_frame": 6299,
+            "label": "Put down screwdriver",
+            "class_idx": 5
+        },
+        {
+            "Action_start_bvh_frame": 6309,
+            "Action_end_bvh_frame": 6423,
+            "label": "Take measuring rod",
+            "class_idx": 8
+        },
+        {
+            "Action_start_bvh_frame": 6423,
+            "Action_end_bvh_frame": 6661,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 6676,
+            "Action_end_bvh_frame": 6833,
+            "label": "Take screwdriver",
+            "class_idx": 4
+        },
+        {
+            "Action_start_bvh_frame": 6847,
+            "Action_end_bvh_frame": 7128,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 7142,
+            "Action_end_bvh_frame": 7233,
+            "label": "Put down screwdriver",
+            "class_idx": 5
+        },
+        {
+            "Action_start_bvh_frame": 7233,
+            "Action_end_bvh_frame": 7347,
+            "label": "Put down measuring rod",
+            "class_idx": 9
+        },
+        {
+            "Action_start_bvh_frame": 7599,
+            "Action_end_bvh_frame": 7637,
+            "label": "Consult sheets",
+            "class_idx": 2
+        },
+        {
+            "Action_start_bvh_frame": 7652,
+            "Action_end_bvh_frame": 8056,
+            "label": "Picking in front",
+            "class_idx": 6
+        },
+        {
+            "Action_start_bvh_frame": 8071,
+            "Action_end_bvh_frame": 8152,
+            "label": "Put down component",
+            "class_idx": 11
+        },
+        {
+            "Action_start_bvh_frame": 8161,
+            "Action_end_bvh_frame": 8423,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 8428,
+            "Action_end_bvh_frame": 8623,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 8623,
+            "Action_end_bvh_frame": 8771,
+            "label": "Put down component",
+            "class_idx": 11
+        },
+        {
+            "Action_start_bvh_frame": 8813,
+            "Action_end_bvh_frame": 9028,
+            "label": "Picking in front",
+            "class_idx": 6
+        },
+        {
+            "Action_start_bvh_frame": 9028,
+            "Action_end_bvh_frame": 9051,
+            "label": "Put down component",
+            "class_idx": 11
+        },
+        {
+            "Action_start_bvh_frame": 9051,
+            "Action_end_bvh_frame": 9261,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 9261,
+            "Action_end_bvh_frame": 9380,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 9380,
+            "Action_end_bvh_frame": 9513,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 9537,
+            "Action_end_bvh_frame": 9880,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 9894,
+            "Action_end_bvh_frame": 10037,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 10113,
+            "Action_end_bvh_frame": 10266,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 10442,
+            "Action_end_bvh_frame": 10599,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 10747,
+            "Action_end_bvh_frame": 10994,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 10999,
+            "Action_end_bvh_frame": 11051,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 11051,
+            "Action_end_bvh_frame": 11289,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 11308,
+            "Action_end_bvh_frame": 11737,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 11751,
+            "Action_end_bvh_frame": 11989,
+            "label": "Take screwdriver",
+            "class_idx": 4
+        },
+        {
+            "Action_start_bvh_frame": 11989,
+            "Action_end_bvh_frame": 12684,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 12794,
+            "Action_end_bvh_frame": 13284,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 13294,
+            "Action_end_bvh_frame": 13446,
+            "label": "Put down screwdriver",
+            "class_idx": 5
+        },
+        {
+            "Action_start_bvh_frame": 13461,
+            "Action_end_bvh_frame": 13665,
+            "label": "Picking in front",
+            "class_idx": 6
+        },
+        {
+            "Action_start_bvh_frame": 13737,
+            "Action_end_bvh_frame": 14008,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 14103,
+            "Action_end_bvh_frame": 14346,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 14665,
+            "Action_end_bvh_frame": 15060,
+            "label": "Put down subsystem",
+            "class_idx": 14
+        },
+        {
+            "Action_start_bvh_frame": 15127,
+            "Action_end_bvh_frame": 15470,
+            "label": "Turn sheets",
+            "class_idx": 3
+        },
+        {
+            "Action_start_bvh_frame": 15484,
+            "Action_end_bvh_frame": 15656,
+            "label": "Picking in front",
+            "class_idx": 6
+        },
+        {
+            "Action_start_bvh_frame": 15779,
+            "Action_end_bvh_frame": 15989,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 16051,
+            "Action_end_bvh_frame": 16551,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 16565,
+            "Action_end_bvh_frame": 16770,
+            "label": "Take screwdriver",
+            "class_idx": 4
+        },
+        {
+            "Action_start_bvh_frame": 16770,
+            "Action_end_bvh_frame": 17051,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 17074,
+            "Action_end_bvh_frame": 17194,
+            "label": "Put down screwdriver",
+            "class_idx": 5
+        },
+        {
+            "Action_start_bvh_frame": 17841,
+            "Action_end_bvh_frame": 18089,
+            "label": "Picking in front",
+            "class_idx": 6
+        },
+        {
+            "Action_start_bvh_frame": 18098,
+            "Action_end_bvh_frame": 18351,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 18351,
+            "Action_end_bvh_frame": 18393,
+            "label": "Put down component",
+            "class_idx": 11
+        },
+        {
+            "Action_start_bvh_frame": 18431,
+            "Action_end_bvh_frame": 18631,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 18631,
+            "Action_end_bvh_frame": 18793,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 18841,
+            "Action_end_bvh_frame": 19517,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 19517,
+            "Action_end_bvh_frame": 19660,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 19660,
+            "Action_end_bvh_frame": 19784,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 19808,
+            "Action_end_bvh_frame": 20046,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 20060,
+            "Action_end_bvh_frame": 20198,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 20203,
+            "Action_end_bvh_frame": 20498,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 20512,
+            "Action_end_bvh_frame": 20717,
+            "label": "Take screwdriver",
+            "class_idx": 4
+        },
+        {
+            "Action_start_bvh_frame": 20717,
+            "Action_end_bvh_frame": 21126,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 21384,
+            "Action_end_bvh_frame": 21555,
+            "label": "Put down screwdriver",
+            "class_idx": 5
+        },
+        {
+            "Action_start_bvh_frame": 21555,
+            "Action_end_bvh_frame": 21903,
+            "label": "Turn sheets",
+            "class_idx": 3
+        },
+        {
+            "Action_start_bvh_frame": 21917,
+            "Action_end_bvh_frame": 22093,
+            "label": "Picking in front",
+            "class_idx": 6
+        },
+        {
+            "Action_start_bvh_frame": 22103,
+            "Action_end_bvh_frame": 22341,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 22474,
+            "Action_end_bvh_frame": 22807,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 22960,
+            "Action_end_bvh_frame": 23317,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 23326,
+            "Action_end_bvh_frame": 23536,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 23536,
+            "Action_end_bvh_frame": 23550,
+            "label": "Put down component",
+            "class_idx": 11
+        },
+        {
+            "Action_start_bvh_frame": 23593,
+            "Action_end_bvh_frame": 23774,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 23774,
+            "Action_end_bvh_frame": 23836,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 23855,
+            "Action_end_bvh_frame": 24045,
+            "label": "Take screwdriver",
+            "class_idx": 4
+        },
+        {
+            "Action_start_bvh_frame": 24064,
+            "Action_end_bvh_frame": 24274,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 24288,
+            "Action_end_bvh_frame": 24374,
+            "label": "Put down screwdriver",
+            "class_idx": 5
+        },
+        {
+            "Action_start_bvh_frame": 24640,
+            "Action_end_bvh_frame": 24840,
+            "label": "Picking in front",
+            "class_idx": 6
+        },
+        {
+            "Action_start_bvh_frame": 24845,
+            "Action_end_bvh_frame": 25045,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 25045,
+            "Action_end_bvh_frame": 25064,
+            "label": "Put down component",
+            "class_idx": 11
+        },
+        {
+            "Action_start_bvh_frame": 25064,
+            "Action_end_bvh_frame": 25240,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 25240,
+            "Action_end_bvh_frame": 25255,
+            "label": "Put down component",
+            "class_idx": 11
+        },
+        {
+            "Action_start_bvh_frame": 25264,
+            "Action_end_bvh_frame": 25402,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 25407,
+            "Action_end_bvh_frame": 25593,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 25778,
+            "Action_end_bvh_frame": 26002,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 26002,
+            "Action_end_bvh_frame": 26240,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 26254,
+            "Action_end_bvh_frame": 26421,
+            "label": "Take screwdriver",
+            "class_idx": 4
+        },
+        {
+            "Action_start_bvh_frame": 26421,
+            "Action_end_bvh_frame": 26859,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 26912,
+            "Action_end_bvh_frame": 27102,
+            "label": "Put down screwdriver",
+            "class_idx": 5
+        },
+        {
+            "Action_start_bvh_frame": 27145,
+            "Action_end_bvh_frame": 27369,
+            "label": "Turn sheets",
+            "class_idx": 3
+        },
+        {
+            "Action_start_bvh_frame": 27564,
+            "Action_end_bvh_frame": 27783,
+            "label": "Turn sheets",
+            "class_idx": 3
+        },
+        {
+            "Action_start_bvh_frame": 27802,
+            "Action_end_bvh_frame": 27988,
+            "label": "Picking in front",
+            "class_idx": 6
+        },
+        {
+            "Action_start_bvh_frame": 27997,
+            "Action_end_bvh_frame": 28354,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 28373,
+            "Action_end_bvh_frame": 28602,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 28621,
+            "Action_end_bvh_frame": 28826,
+            "label": "Take screwdriver",
+            "class_idx": 4
+        },
+        {
+            "Action_start_bvh_frame": 28826,
+            "Action_end_bvh_frame": 29016,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 29016,
+            "Action_end_bvh_frame": 29497,
+            "label": "Put down screwdriver",
+            "class_idx": 5
+        },
+        {
+            "Action_start_bvh_frame": 29530,
+            "Action_end_bvh_frame": 29745,
+            "label": "Take subsystem",
+            "class_idx": 13
+        },
+        {
+            "Action_start_bvh_frame": 29759,
+            "Action_end_bvh_frame": 29902,
+            "label": "Picking in front",
+            "class_idx": 6
+        },
+        {
+            "Action_start_bvh_frame": 29902,
+            "Action_end_bvh_frame": 29916,
+            "label": "Put down component",
+            "class_idx": 11
+        },
+        {
+            "Action_start_bvh_frame": 29935,
+            "Action_end_bvh_frame": 30083,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 30097,
+            "Action_end_bvh_frame": 30278,
+            "label": "Picking left",
+            "class_idx": 7
+        },
+        {
+            "Action_start_bvh_frame": 30278,
+            "Action_end_bvh_frame": 30326,
+            "label": "Put down component",
+            "class_idx": 11
+        },
+        {
+            "Action_start_bvh_frame": 30597,
+            "Action_end_bvh_frame": 30673,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 30673,
+            "Action_end_bvh_frame": 30821,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 31378,
+            "Action_end_bvh_frame": 31468,
+            "label": "Take component",
+            "class_idx": 10
+        },
+        {
+            "Action_start_bvh_frame": 31468,
+            "Action_end_bvh_frame": 31678,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 31721,
+            "Action_end_bvh_frame": 31892,
+            "label": "Take screwdriver",
+            "class_idx": 4
+        },
+        {
+            "Action_start_bvh_frame": 31892,
+            "Action_end_bvh_frame": 32263,
+            "label": "Assemble system",
+            "class_idx": 12
+        },
+        {
+            "Action_start_bvh_frame": 32263,
+            "Action_end_bvh_frame": 32468,
+            "label": "Put down screwdriver",
+            "class_idx": 5
+        },
+        {
+            "Action_start_bvh_frame": 32711,
+            "Action_end_bvh_frame": 33144,
+            "label": "Put down subsystem",
+            "class_idx": 14
+        }
+    ]
+}
