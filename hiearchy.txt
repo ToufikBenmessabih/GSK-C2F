@@ -1,0 +1,148 @@
+Hips
+ 'Spine
+ 'Spine1
+ 'Spine2
+ 'Spine3
+ 'LeftShoulder
+ 'LeftArm
+ 'LeftForeArm
+ 'LeftHand
+ 'LeftInHandPinky
+ 'LeftHandPinky1
+ 'LeftHandPinky2
+ 'LeftHandPinky3
+ 'LeftHandPinky3_Nub
+ 'LeftInHandRing
+ 'LeftHandRing1
+ 'LeftHandRing2
+ 'LeftHandRing3
+ 'LeftHandRing3_Nub
+ 'LeftInHandMiddle
+ 'LeftHandMiddle1
+ 'LeftHandMiddle2
+ 'LeftHandMiddle3
+ 'LeftHandMiddle3_Nub
+ 'LeftInHandIndex
+ 'LeftHandIndex1
+ 'LeftHandIndex2
+ 'LeftHandIndex3
+ 'LeftHandIndex3_Nub
+ 'LeftHandThumb1
+ 'LeftHandThumb2
+ 'LeftHandThumb3
+ 'LeftHandThumb3_Nub
+ 'RightShoulder
+ 'RightArm
+ 'RightForeArm
+ 'RightHand
+ 'RightInHandPinky
+ 'RightHandPinky1
+ 'RightHandPinky2
+ 'RightHandPinky3
+ 'RightHandPinky3_Nub
+ 'RightInHandRing
+ 'RightHandRing1
+ 'RightHandRing2
+ 'RightHandRing3
+ 'RightHandRing3_Nub
+ 'RightInHandMiddle
+ 'RightHandMiddle1
+ 'RightHandMiddle2
+ 'RightHandMiddle3
+ 'RightHandMiddle3_Nub
+ 'RightInHandIndex
+ 'RightHandIndex1
+ 'RightHandIndex2
+ 'RightHandIndex3
+ 'RightHandIndex3_Nub
+ 'RightHandThumb1
+ 'RightHandThumb2
+ 'RightHandThumb3
+ 'RightHandThumb3_Nub
+ 'Neck
+ 'Head
+ 'Head_Nub
+ 'LeftUpLeg
+ 'LeftLeg
+ 'LeftFoot
+ 'LeftFoot_Nub
+ 'RightUpLeg
+ 'RightLeg
+ 'RightFoot
+ 'RightFoot_Nub
+
+
+Here is the extracted hierarchy:
+
+- 0: Hips 
+  - 68: RightUpLeg
+    - 69: RightLeg
+      - 70: RightFoot
+        - 71: RightFoot_Nub
+  - 64: LeftUpLeg
+    - 65: LeftLeg
+      - 66: LeftFoot
+        - 67: LeftFoot_Nub
+  - 1: Spine
+    - 2: Spine1
+      - 3: Spine2
+        - 4: Spine3
+          - 61: Neck
+            - 62: Head
+              - 63: Head_Nub
+          - 33: RightShoulder
+            - 34: RightArm
+              - 35: RightForeArm
+                - 36: RightHand
+                  - 57: RightHandThumb1
+                    - 58: RightHandThumb2
+                      - 59: RightHandThumb3
+                        - 60: RightHandThumb3_Nub
+                  - 52: RightInHandIndex
+                    - 53: RightHandIndex1
+                      - 54: RightHandIndex2
+                        - 55: RightHandIndex3
+                          - 56: RightHandIndex3_Nub
+                  - 47: RightInHandMiddle
+                    - 48: RightHandMiddle1
+                      - 49: RightHandMiddle2
+                        - 50: RightHandMiddle3
+                          - 51: RightHandMiddle3_Nub
+                  - 42: RightInHandRing
+                    - 43: RightHandRing1
+                      - 44: RightHandRing2
+                        - 45: RightHandRing3
+                          - 46: RightHandRing3_Nub
+                  - 37: RightInHandPinky
+                    - 38: RightHandPinky1
+                      - 39: RightHandPinky2
+                        - 40: RightHandPinky3
+                          - 41: RightHandPinky3_Nub
+          - 5: LeftShoulder
+            - 6: LeftArm
+              - 7: LeftForeArm
+                - 8: LeftHand
+                  - 29: LeftHandThumb1
+                    - 30: LeftHandThumb2
+                      - 31: LeftHandThumb3
+                        - 32: LeftHandThumb3_Nub
+                  - 24: LeftInHandIndex
+                    - 25: LeftHandIndex1
+                      - 26: LeftHandIndex2
+                        - 27: LeftHandIndex3
+                          - 28: LeftHandIndex3_Nub
+                  - 19: LeftInHandMiddle
+                    - 20: LeftHandMiddle1
+                      - 21: LeftHandMiddle2
+                        - 22: LeftHandMiddle3
+                          - 23: LeftHandMiddle3_Nub
+                  - 14: LeftInHandRing
+                    - 15: LeftHandRing1
+                      - 16: LeftHandRing2
+                        - 17: LeftHandRing3
+                          - 18: LeftHandRing3_Nub
+                  - 9: LeftInHandPinky
+                    - 10: LeftHandPinky1
+                      - 11: LeftHandPinky2
+                        - 12: LeftHandPinky3
+                          - 13: LeftHandPinky3_Nub
